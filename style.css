@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Jersey 25", sans-serif;
+    background-color: #222222;
+}
+
+#cabecalho {
+    background-color: #2E2E2E;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.teste {
+    display: flex;
+    position: absolute;
+    right: 10vw;
+}
+
+.icone {
+    border-radius: 50%;
+    width: 151px;
+    height: 134px;
+    padding-bottom: 9rem;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    margin-top: 2vw;
+}
+
+.links a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color:white;
+    justify-content: ;
+}
+
+.cadastro a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.2vw;
+    border: solid 3px #840EC9;
+    padding: 0.2em;
+    border-radius: 3em;
+}
+
+#log {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+    margin-top: 2em;
+    gap: 1vw;
+    position: relative;
+}
+
+#log span {
+    color: #6847FD;
+}
+
+.titulo {
+    font-family: "Jockey One", sans-serif;
+    color: white;
+    font-size: 1.8vw;
+}
+
+#log p {
+    color: white;
+    font-size: 0.65vw;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.login input{
+    border-radius: 1.302vw;
+    padding: 0.8em;
+    padding-right: 12vw;
+}
+
+.enviar a{
+    font-family: "Josefin Sans", sans-serif;;
+    font-size: 1.4vw;
+    color: white;
+    text-decoration: none;
+    background-color: #6847FD;
+    border-radius: 1vw;
+    padding: 0.6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-shadow: 2px 3px 3px #e83c84e1;
+}
+
+.imgfund {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
