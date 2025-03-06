@@ -17,12 +17,15 @@ body{
     align-items: center;
     position: relative;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .teste {
     display: flex;
     position: absolute;
-    right: 10vw;
+    right: 15vw;
+    align-items: center;
+    z-index: 2;
 }
 
 .icone {
@@ -37,13 +40,14 @@ body{
     display: flex;
     gap: 5vw;
     margin-top: 2vw;
+    z-index: 3;
 }
 
 .links a{
     font-size: 1.5vw;
     text-decoration: none;
     color:white;
-    justify-content: ;
+
 }
 
 .cadastro a {
@@ -103,4 +107,9 @@ body{
     position: absolute;
     top: 10%;
     right: 20%;
+    width: 40%;
+
+}
+.imgfund img{
+    width: 100%;
 }
